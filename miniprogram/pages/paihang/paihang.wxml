@@ -1,0 +1,53 @@
+<view bind:tap="onTapUpload" class="page-section top">
+	<view class="weui-cells">
+		<view>
+			<text selectable="true">点击上传今日伤害</text>
+		</view>
+	</view>
+</view>
+<view class="page-section second">
+	<view class="weui-cells">
+		<view class="gogogo">
+			<text selectable="true">下拉刷新榜单</text>
+		</view>
+	</view>
+</view>
+<!-- <block wx:for="{{testRank}}" wx:for-item="item" wx:for-index="index">
+	<view class="damageContainer">
+		<view class="damage"><text class="">{{index+1}}</text></view>
+		<view class="damage"><text class="">{{item.nickname}}</text></view>
+		<view class="damage"><text class="">{{item.firstDamage}}</text></view>
+		<view class="damage"><text class="">{{item.secondDamage}}</text></view>
+		<view class="damage"><text class="">{{item.thirdDamage}}</text></view>
+		<view class="damage"><text class="">{{item.totalDamage}}</text></view>
+	</view>
+</block> -->
+<view class="container">
+	<block wx:for="{{testRank}}">
+		<block wx:if="{{index<3}}">
+			<image class="rankingImg" src="../../images/ranking{{index+1}}.png" />
+		</block>
+		<view class="line"></view>
+		<view wx:if="{{index>2}}" class="ranking"><text>{{index+1}}</text></view>
+		<view class="info">
+			<view class="name"><text class="">工会昵称： {{item.nickname}}</text></view>
+			<view class="detail">
+				<view class="damage"><text>第一刀： {{item.firstDamage}}</text></view>
+				<view class="damage"><text>第二刀：{{item.secondDamage}}</text></view>
+				<view class="damage"><text>第三刀： {{item.thirdDamage}}</text></view>
+				<view class="damage"><text>白嫖刀： {{item.freeDamage}}</text></view>
+				<view class="total"><text>总共： {{-(-item.firstDamage-item.secondDamage-item.thirdDamage-item.freeDamage)}}</text></view>
+			</view>
+		</view>
+
+	</block>
+</view>
+<!-- <view class="page-section">
+	<view class="weui-cells weui-cells_after-title">
+		<view class="weui-cell weui-cell_input">
+			<view bind:tap="onTapReset" class="weui-input">
+				<text selectable="true">重置</text>
+			</view>
+		</view>
+	</view>
+</view> -->

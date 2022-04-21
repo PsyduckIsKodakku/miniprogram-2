@@ -1,0 +1,60 @@
+<form bindsubmit='res'>
+	<view class="page-body">
+		<view class="page-section">
+			<view class="weui-cells__title">游戏昵称: {{inputNickname}}</view>
+			<view class="weui-cells weui-cells_after-title">
+				<view class="weui-cell weui-cell_input">
+					<input class="weui-input" type="focus" name="nickname" bindinput="bindKeyName" placeholder="工会战期间请不要改昵称" />
+				</view>
+			</view>
+		</view>
+		<view class="page-section">
+			<view class="weui-cells__title">第一刀伤害: {{inputValue1}}</view>
+			<view class="weui-cells weui-cells_after-title">
+				<view class="weui-cell weui-cell_input">
+					<input class="weui-input" type="number" name="firstDamage" bindinput="bindKeyInput1" placeholder="未出和上传过的刀就填0" />
+				</view>
+			</view>
+		</view>
+		<view class="page-section">
+			<view class="weui-cells__title">第二刀伤害: {{inputValue2}}</view>
+			<view class="weui-cells weui-cells_after-title">
+				<view class="weui-cell weui-cell_input">
+					<input class="weui-input" type="number" name="secondDamage" bindinput="bindKeyInput2" placeholder="未出和上传过的刀就填0" />
+				</view>
+			</view>
+		</view>
+		<view class="page-section">
+			<view class="weui-cells__title">第三刀伤害: {{inputValue3}}</view>
+			<view class="weui-cells weui-cells_after-title">
+				<view class="weui-cell weui-cell_input">
+					<input class="weui-input" type="number" name="thirdDamage" bindinput="bindKeyInput3" placeholder="未出和上传过的刀就填0" />
+				</view>
+			</view>
+		</view>
+		<view class="page-section">
+			<view class="weui-cells__title">白嫖刀伤害: {{inputValue5}}</view>
+			<view class="weui-cells weui-cells_after-title">
+				<view class="weui-cell weui-cell_input">
+					<input class="weui-input" type="number" name="freeDamage" bindinput="bindKeyInput5" placeholder="未出和上传过的刀就填0" />
+				</view>
+			</view>
+		</view>
+	</view>
+	<view  bind:tap="onTapCal" class="page-section">
+		<view class="weui-cells bottom">
+			<view class="weui-input"><text>点击计算总值</text></view>
+		</view>
+	</view>
+	<view class="page-section">
+		<view class="weui-cells__title">总伤害</view>
+		<view class="weui-cells weui-cells_after-title">
+			<view class="weui-cell ">
+				<view class="weui-input">
+					<text selectable="true">{{inputValue4}}</text>
+				</view>
+			</view>
+		</view>
+	</view>
+	<view><button form-type='submit'>提交</button></view>
+</form>

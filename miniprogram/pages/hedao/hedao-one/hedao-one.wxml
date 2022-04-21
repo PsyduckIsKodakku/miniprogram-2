@@ -1,0 +1,31 @@
+<view class="page-body">
+	<view class="page-section">
+		<view class="weui-cells weui-cells_after-title">
+			<view class="weui-cell weui-cell_input">
+				<view class="weui-input">
+					<text>天哪你自己一个人吃尾刀还想算什么啊</text>
+				</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="page-section">
+		<view class="weui-cells weui-cells_after-title">
+			<view class="weui-cell weui-cell_input">
+				<view class="weui-input">
+					<text>自己掂量掂量能不能在十秒内鲨了BOSS</text>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>
+
+<view class="page-section">
+	<view class="weui-cells weui-cells_after-title">
+		<view class="weui-cell weui-cell_input">
+			<view class="weui-input">
+				<text>不过毕竟是大佬，我也没啥能说的，就嗯牛！</text>
+			</view>
+		</view>
+	</view>
+</view>

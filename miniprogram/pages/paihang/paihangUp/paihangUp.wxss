@@ -1,0 +1,16 @@
+@import "../../../style/weui.wxss";
+
+.bottom {
+  margin-bottom: 50rpx;
+  text-align: center;
+}
+
+
+.bottom text {
+  font-size: 50rpx;
+  color: #cd5c5c;
+}
+
+.weui-input text {
+  font-size: 50rpx;
+}

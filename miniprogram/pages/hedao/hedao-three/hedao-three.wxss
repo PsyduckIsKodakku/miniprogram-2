@@ -1,0 +1,9 @@
+@import "../../../style/weui.wxss";
+
+.page-section{
+  margin-bottom: 20rpx;
+}
+
+.weui-input text {
+  font-size: 50rpx;
+}

@@ -1,0 +1,14 @@
+<!--pages/posts/post-detail/post-detail.wxml-->
+<view class="container">
+	<image class="head-image" src="{{detailsData.heading}}"></image>
+	<view class="author-data">
+		<image class="avatar" src="{{detailsData.headImgSrc}}"></image>
+		<text class="author">{{detailsData.author}}</text>
+		<text class="publish">Published Time</text>
+		<text class="time">{{detailsData.dateTime}}</text>
+	</view>
+	<text class="title">{{title}}</text>
+	<view class="line"></view>
+	<rich-text nodes="{{detailsData.detail}}" class="paragraph"></rich-text>
+	<image class="lastBanner" src="{{detailsData.bottom}}"></image>
+</view>

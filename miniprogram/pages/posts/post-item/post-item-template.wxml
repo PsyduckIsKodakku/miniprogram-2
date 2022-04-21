@@ -1,0 +1,12 @@
+<template name="postItem">
+	<view class="post-container">
+		<view class="post-author-date">
+			<image class="post-author" src="{{author_src}}"></image>
+			<text class="post-date">{{author}}</text>
+			<text wx:if="{{date_condition}}" class="post-date">{{date}}</text>
+		</view>
+		<text class="post-title">{{title}}</text>
+		<image class="post-image" src="{{briefsrc}}"></image>
+    <text class="post-sub">{{sub}}</text>
+	</view>
+</template>

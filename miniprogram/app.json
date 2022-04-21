@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/posts/posts",
+    "pages/posts/post-detail/post-detail",
+    "pages/hedao/hedao",
+    "pages/hedao/hedao-three/hedao-three",
+    "pages/hedao/hedao-two/hedao-two",
+    "pages/hedao/hedao-one/hedao-one",
+    "pages/paihang/paihang",
+    "pages/paihang/paihangUp/paihangUp",
+    "pages/hedao/hedao-explain/hedao-explain"
+  ],
+  "window": {
+    "enablePullDownRefresh": false,
+    "navigationBarBackgroundColor": "#ff99cc",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "公主焊接",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "color": "#333",
+    "list": [
+      {
+        "pagePath": "pages/posts/posts",
+        "text": "资讯",
+        "iconPath": "images/datahub-data.png",
+        "selectedIconPath": "images/datahub-data.png"
+      },
+      {
+        "pagePath": "pages/hedao/hedao",
+        "text": "合刀",
+        "iconPath": "images/prophet-data.png",
+        "selectedIconPath": "images/prophet-data.png"
+      },
+      {
+        "pagePath": "pages/paihang/paihang",
+        "text": "排行榜",
+        "iconPath": "images/openad.png",
+        "selectedIconPath": "images/openad.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap57.json"
+}

@@ -1,0 +1,28 @@
+<view class="page-body">
+	<view class="page-section">
+		<view class="weui-cells__title">BOSS剩余血量：{{inputValue1}} </view>
+		<view class="weui-cells weui-cells_after-title">
+			<view class="weui-cell weui-cell_input">
+				<input class="weui-input" name="boss" type="number" bindinput="bindKeyInput1" placeholder="血量别填错了" />
+			</view>
+		</view>
+	</view>
+	<view class="page-section">
+		<view class="weui-cells__title">我的伤害：{{inputValue2}} </view>
+		<view class="weui-cells weui-cells_after-title">
+			<view class="weui-cell weui-cell_input">
+				<input class="weui-input" name="myDamage" type="number" bindinput="bindKeyInput2" placeholder="伤害也别填错了" />
+			</view>
+		</view>
+	</view>
+	<view class="page-section">
+		<view class="weui-cells__title">完美刀伤害</view>
+		<view class="weui-cells weui-cells_after-title">
+			<view class="weui-cell weui-cell_input">
+				<view class="weui-input">
+					<text>{{(inputValue1-inputValue2)*8.2}}</text>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>

@@ -1,0 +1,9 @@
+<!--miniprogram/pages/hedao/hedao-explain/hedao-explain.wxml-->
+<view>
+  <p1>合刀工具说明</p1>
+  <p2>本页将会详细的说明这个合刀工具的使用方法，首先可以看到在合刀首页有三个按键</p2>
+  <image src="cloud://princess-tv3rl.7072-princess-tv3rl-1302065882/image1.png"></image>
+  <p2>接着我们以第二个合刀界面为例，演示使用方法</p2>
+  <image src="cloud://princess-tv3rl.7072-princess-tv3rl-1302065882/image2.png"></image>
+  <p2 class="atten">注意由于实战的时候伤害不太稳定，大部分情况都会与模拟战有+/-10000左右的误差，所以建议计算的时候往小里算</p2>
+</view>

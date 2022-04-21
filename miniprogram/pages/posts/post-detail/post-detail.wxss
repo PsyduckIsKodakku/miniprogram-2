@@ -1,0 +1,84 @@
+@import "../post-item/post-item-template.wxss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.head-image {
+  width: 100%;
+  height:500rpx
+}
+
+.lastBanner {
+  width:100%;
+  height:200rpx;
+  margin-bottom: 50rpx;
+}
+
+.author-data {
+  flex-direction: row;
+  margin-left: 30rpx;
+  vertical-align: middle;
+}
+
+.avatar {
+  height: 64rpx;
+  width: 64rpx;
+  vertical-align: middle;
+}
+
+.author {
+  font-size: 30rpx;
+  font-weight: 300;
+  margin-left: 20rpx;
+  vertical-align: middle;
+  color: #666;
+}
+
+.publish {
+  font-size: 24rpx;
+  color: #999;
+  margin-left: 20rpx;
+}
+
+.time {
+  font-size: 24rpx;
+  margin-left: 30rpx;
+  vertical-align: middle;
+  color: #999;
+}
+
+.title {
+  margin-left: 40rpx;
+  font-size: 36rpx;
+  font-weight: 700;
+  margin-top: 30rpx;
+  letter-spacing: 2px;
+  color: #4b556c;
+}
+
+.line {
+  width: 660rpx;
+  height: 1px;
+  background-color: #e5e5e5;
+  vertical-align: middle;
+  position: relative;
+  margin: 0 auto;
+}
+
+.paragraph {
+  color: #666;
+  margin-left: 40rpx;
+  margin-top: 60rpx;
+  margin-right: 20rpx;
+  line-height: 44rpx;
+  letter-spacing: 2px;
+  font-size: 30rpx;
+}
+
+rich-text img {
+  margin-left: 40rpx;
+  height: 560rpx;
+  width:100%
+}

@@ -1,0 +1,11 @@
+<image bindtap="onTapJump" src="cloud://princess-tv3rl.7072-princess-tv3rl-1302065882/banner4.png"></image>
+<view class="page-body">
+	<view class="btn-area" id="buttonContainer">
+		<image src="../../images/dalao.png"></image>
+		<button type="default" bind:tap="onTapOne">我是大佬，一人尾刀</button>
+		<image src="../../images/xiuxian.png"></image>
+		<button type="default" bind:tap="onTapTwo">休闲会员，两人合刀</button>
+		<image src="../../images/xianyu.png"></image>
+		<button type="default" bind:tap="onTapThree">咸鱼弟弟，三人合刀</button>
+	</view>
+</view>

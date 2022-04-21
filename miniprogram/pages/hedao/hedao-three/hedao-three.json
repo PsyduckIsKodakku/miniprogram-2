@@ -1,0 +1,8 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#ff99cc",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "三人合刀",
+  "backgroundColor": "#9370DB",
+  "backgroundTextStyle": "light"
+}

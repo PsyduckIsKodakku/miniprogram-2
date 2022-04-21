@@ -1,0 +1,9 @@
+/* miniprogram/pages/hedao/hedao-one/hedao-one.wxss *//* miniprogram/pages/hedao/hedao-two/hedao.two.wxss */
+@import "../../../style/weui.wxss";
+.page-section{
+  margin-bottom: 20rpx;
+}
+
+.weui-input text {
+  font-size: 35rpx;
+}
